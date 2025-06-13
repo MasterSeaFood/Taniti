@@ -1,12 +1,53 @@
+:root {
+    --bg-color: #F7FFD5;
+    --nav-clear: #FFFFFF;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
+body {
+    background-color: #F7FFD5;
+}
+
+#home {
+    background-color: #F7FFD5;
+}
+
 nav {
     display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 6vh;
+    background-color: #FFFFFF;
 }
 
 .nav-tabs {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
+.nav-tabs > a > button{
+    font-size: large;
+    border: none;
+    height: 6vh;
+    background-color: #FFFFFF;
+    padding: 0 25px;
+}
+
+.nav-tabs > a > button:hover {
+    font-size: x-large;
+}
+
+.img-container {
+    height: 550px;
+    overflow: hidden;
+}
+
+.img-container > img {
+    transform: translateY(-300px);
 }
