@@ -15,7 +15,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     /* height: 6vh; */
     background-color: var(--nav-clear);
     padding: 0px 10vw;
@@ -37,7 +37,7 @@ button {
     padding: 0 25px;
 }
 
-.nav-tabs > a > button:hover {
+.nav-tabs>a>button:hover {
     font-size: x-large;
     background-color: var(--bg-color);
 }
@@ -58,13 +58,13 @@ button {
 }
 
 .main-container {
-    background-color: rgba(255, 255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid black;
     border-radius: 20px;
     margin: 30px 15vw;
 }
 
-.home-info  {
+.home-info {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
@@ -74,34 +74,59 @@ button {
     padding-bottom: 30px;
 }
 
-.home-info > ul {
-    list-style-type:circle;
+.home-info>ul {
+    list-style-type: circle;
 }
+
+/* Lodging CSS */
 
 .lodging {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 15vw;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;
+    width: 100%;
+    height: auto; */
 }
 
-.lodging-img {
+/* .lodging-img {
     width: auto;
     height: 900px;
     border-radius: 15px;
-    transition: height 1s;
-}
+} */
 
-.lodging-img:hover {
-    height: 925px;
-}
-
-
-.lodging-intro, .hotel, .family-own {
+/* .lodging-intro,
+.hotel,
+.family-own {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    width: 100%;
+    height: auto;
+} */
 
+/* .lodging-img-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+} */
+
+/* .lodging-img-container > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .lodging-img-container > div > button {
+    min-height: fit-content;
+    min-width: fit-content;
+    position: relative;
+    right: 50%;
+    top: 50%;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 15px;
+}
+ */
