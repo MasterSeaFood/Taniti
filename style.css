@@ -58,7 +58,7 @@ button {
 }
 
 .main-container {
-    background-color: rgba(255, 255,255,0.3);
+    background-color: rgba(255, 255,255,0.7);
     border: 1px solid black;
     border-radius: 20px;
     margin: 30px 15vw;
@@ -76,4 +76,9 @@ button {
 
 .home-info > ul {
     list-style-type:circle;
+}
+
+.lodging-img {
+    width: 500px;
+    height: auto;
 }
