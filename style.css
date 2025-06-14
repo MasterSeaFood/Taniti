@@ -78,7 +78,30 @@ button {
     list-style-type:circle;
 }
 
-.lodging-img {
-    width: 500px;
-    height: auto;
+.lodging {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15vw;
 }
+
+.lodging-img {
+    width: auto;
+    height: 900px;
+    border-radius: 15px;
+    transition: height 1s;
+}
+
+.lodging-img:hover {
+    height: 925px;
+}
+
+
+.lodging-intro, .hotel, .family-own {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
