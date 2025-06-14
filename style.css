@@ -1,6 +1,7 @@
 :root {
     --bg-color: #F7FFD5;
     --nav-clear: #FFFFFF;
+    --transparent-white: rgba(255,255,255,0.7)
 }
 
 * {
@@ -9,6 +10,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-color: var(--bg-color);
 }
 
@@ -16,17 +20,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* height: 6vh; */
     background-color: var(--nav-clear);
     padding: 0px 10vw;
-    position: s
 }
 
 .nav-tabs {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 30vw;
 }
 
 button {
@@ -48,6 +49,7 @@ button {
     background-image: url('./images/clear-water-mountain.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
 }
 
@@ -58,10 +60,11 @@ button {
 }
 
 .main-container {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: var(--transparent-white);
     border: 1px solid black;
     border-radius: 20px;
-    margin: 30px 15vw;
+    margin: 0px 15vw;
+    height: 100%;
 }
 
 .home-info {
@@ -78,55 +81,66 @@ button {
     list-style-type: circle;
 }
 
-/* Lodging CSS */
+/* --------------------Lodging CSS--------------------- */
 
 .lodging {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;
-    width: 100%;
-    height: auto; */
+    flex-direction: column;
 }
 
-/* .lodging-img {
+.lodging-img {
     width: auto;
-    height: 900px;
-    border-radius: 15px;
-} */
+    height: 1000px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
 
-/* .lodging-intro,
+.lodging-intro,
 .hotel,
 .family-own {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
     height: auto;
-} */
+}
 
-/* .lodging-img-container {
+.lodging-intro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lodging > section > p {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.lodging-img-container {
     display: flex;
     width: 100%;
-    height: auto;
-    justify-content: center;
-} */
+    justify-content: space-evenly
+}
 
-/* .lodging-img-container > div {
+.img-hover {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-} */
+}
 
-/* .lodging-img-container > div > button {
+.lodging-img-container > div > button {
     min-height: fit-content;
     min-width: fit-content;
-    position: relative;
-    right: 50%;
-    top: 50%;
+    position: absolute;
     background-color: rgba(255,255,255,.7);
     border-radius: 15px;
+    font-size: large;
+    transition: linear 0.25s;
 }
- */
+
+.img-hover > button:hover {
+   font-size: x-large;
+   background-color: var(--bg-color);
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+
