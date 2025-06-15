@@ -43,7 +43,7 @@ button {
     background-color: var(--bg-color);
 }
 
-.img-container {
+.bg-img-container-home {
     height: 45vh;
     width: auto;
     background-image: url('./images/clear-water-mountain.jpg');
@@ -144,3 +144,16 @@ button {
 }
 
 
+/* -------------------Food CSS------------------- */
+
+.bg-img-container-food {
+    height: 45vh;
+    background-image: url("./images/local-meal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-img {
+    width: 600px;
+    height: auto;
+}
