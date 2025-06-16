@@ -17,9 +17,20 @@ h4 {
     font-family: var(--headers-fonts);
 }
 
-p, button {
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+p {
     font-family: var(--p-fonts);
-    font-size: x-large;
 }
 
 body {
@@ -46,7 +57,7 @@ nav {
 button {
     font-size: large;
     border: none;
-    height: 6vh;
+    height: 9vh;
     background-color: #FFFFFF;
     padding: 0 25px;
 }
