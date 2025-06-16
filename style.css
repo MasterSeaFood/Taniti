@@ -187,3 +187,10 @@ section > div {
     align-items: center;
     margin: 40px 0px;
 }
+
+/*------------------- Transportation CSS --------------------- */
+
+.transportation-img {
+    width: 800px;
+    height: auto;
+}
