@@ -1,12 +1,25 @@
 :root {
     --bg-color: #F7FFD5;
     --nav-clear: #FFFFFF;
-    --transparent-white: rgba(255,255,255,0.7)
+    --transparent-white: rgba(255, 255, 255, 0.7);
+    --headers-fonts: 'Marhey', sans-serif;
+    --p-fonts: 'SNOWMAS',sans-serif;
 }
 
 * {
     padding: 0;
     margin: 0;
+}
+
+h1,
+h2,
+h4 {
+    font-family: var(--headers-fonts);
+}
+
+p, button {
+    font-family: var(--p-fonts);
+    font-size: x-large;
 }
 
 body {
@@ -109,7 +122,7 @@ button {
     margin-bottom: 20px;
 }
 
-.lodging > section > p {
+.lodging>section>p {
     margin-bottom: 35px;
     margin-top: 35px;
 }
@@ -126,21 +139,21 @@ button {
     align-items: center;
 }
 
-.lodging-img-container > div > button {
+.lodging-img-container>div>button {
     min-height: fit-content;
     min-width: fit-content;
     position: absolute;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255, 255, 255, .7);
     border-radius: 15px;
     font-size: large;
     transition: linear 0.25s;
 }
 
-.img-hover > button:hover {
-   font-size: x-large;
-   background-color: var(--bg-color);
-   border: 1px solid black;
-   cursor: pointer;
+.img-hover>button:hover {
+    font-size: x-large;
+    background-color: var(--bg-color);
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 
@@ -174,13 +187,14 @@ button {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .food-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section > div {
+section>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
