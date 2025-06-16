@@ -151,9 +151,25 @@ button {
     background-image: url("./images/local-meal.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
 }
 
 .food-img {
     width: 600px;
     height: auto;
+}
+
+.food-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
 }
