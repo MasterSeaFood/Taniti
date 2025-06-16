@@ -146,14 +146,14 @@ button {
 
 /* -------------------Food CSS------------------- */
 
-.bg-img-container-food {
+/* .bg-img-container-food {
     height: 45vh;
     background-image: url("./images/local-meal.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 15px;
-}
+} */
 
 .food-img {
     width: 700px;
