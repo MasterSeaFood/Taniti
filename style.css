@@ -156,10 +156,24 @@ button {
 }
 
 .food-img {
-    width: 600px;
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    transition: linear .2s;
+    margin-bottom: 50px;
+}
+
+.food-img:hover {
+    cursor: pointer;
+    width: 775px;
     height: auto;
 }
 
+.food-imgs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .food-intro {
     display: flex;
     flex-direction: column;
