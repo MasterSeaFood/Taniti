@@ -314,6 +314,7 @@ section>div {
 
 footer{
     display: flex;
+    flex-direction: row;
     background-color: var(--nav-clear);
     justify-content: space-evenly;
 }
