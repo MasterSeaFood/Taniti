@@ -245,4 +245,67 @@ section>div {
 .transportation-img {
     width: 800px;
     height: auto;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: linear .2s;
+}
+
+.transportation-img:hover {
+    width: 850px;
+}
+
+.transportation-header {
+    text-align: center;
+}
+
+.transport-arrival, .island-transportation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.transportation-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.transport-intro {
+    padding: 0px 8vw;
+}
+
+/* -----------Attraction CSS-------------- */
+
+.attraction-header {
+    text-align: center;
+}
+
+.attraction-img {
+    width: 800px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: linear 0.2s;
+}
+
+.attraction-img:hover {
+    width: 850px;
+}
+
+.adventure-imgs, .entertainment-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.entertainment, .adventure {
+    text-align: center;
+}
+
+.attraction-intro {
+    margin: 0px 8vw;
 }
