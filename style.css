@@ -25,12 +25,25 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
 h4 {
     font-size: 35px;
 }
 
-p {
+p, h3, li {
     font-family: var(--p-fonts);
+}
+
+li {
+    font-size: 22px;
+}
+
+p {
+    font-size: 25px;
 }
 
 body {
@@ -55,15 +68,17 @@ nav {
 }
 
 button {
-    font-size: large;
+    font-size: 25px;
     border: none;
     height: 9vh;
     background-color: #FFFFFF;
     padding: 0 25px;
+    font-family: var(--p-fonts);
+    cursor: pointer;
 }
 
 .nav-tabs>a>button:hover {
-    font-size: x-large;
+    font-size: 30px;
     background-color: var(--bg-color);
 }
 
@@ -140,6 +155,7 @@ button {
 
 .lodging-img-container {
     display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-evenly
 }
@@ -156,12 +172,12 @@ button {
     position: absolute;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 15px;
-    font-size: large;
+    font-size: 25px;
     transition: linear 0.25s;
 }
 
 .img-hover>button:hover {
-    font-size: x-large;
+    font-size: 30px;
     background-color: var(--bg-color);
     border: 1px solid black;
     cursor: pointer;
@@ -179,8 +195,16 @@ button {
     margin-bottom: 15px;
 } */
 
+.food-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8vw;
+}
+
 .food-img {
-    width: 700px;
+    width: 720px;
     height: auto;
     border-radius: 15px;
     transition: linear .2s;
@@ -188,8 +212,7 @@ button {
 }
 
 .food-img:hover {
-    cursor: pointer;
-    width: 775px;
+    width: 800px;
     height: auto;
 }
 
@@ -211,6 +234,10 @@ section>div {
     justify-content: center;
     align-items: center;
     margin: 40px 0px;
+}
+
+.dine-out > p, .local-markets > p {
+    margin-bottom: 40px;
 }
 
 /*------------------- Transportation CSS --------------------- */
