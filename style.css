@@ -67,7 +67,7 @@ nav {
     justify-content: space-evenly;
 }
 
-button {
+.nav-tabs > a > button, .img-hover > button {
     font-size: 25px;
     border: none;
     height: 9vh;
@@ -309,3 +309,26 @@ section>div {
 .attraction-intro {
     margin: 0px 8vw;
 }
+
+/* --------------Footer CSS -------------- */
+
+footer{
+    display: flex;
+    background-color: var(--nav-clear);
+    justify-content: space-evenly;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: var(--nav-clear);
+
+}
+
+.footer-botton {
+    border: none;
+    cursor: pointer;
+}
+
