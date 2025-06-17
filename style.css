@@ -3,7 +3,7 @@
     --nav-clear: #FFFFFF;
     --transparent-white: rgba(255, 255, 255, 0.7);
     --headers-fonts: 'Marhey', sans-serif;
-    --p-fonts: 'SNOWMAS',sans-serif;
+    --p-fonts: 'SNOWMAS', sans-serif;
 }
 
 * {
@@ -34,7 +34,9 @@ h4 {
     font-size: 35px;
 }
 
-p, h3, li {
+p,
+h3,
+li {
     font-family: var(--p-fonts);
 }
 
@@ -67,7 +69,8 @@ nav {
     justify-content: space-evenly;
 }
 
-.nav-tabs > a > button, .img-hover > button {
+.nav-tabs>a>button,
+.img-hover>button {
     font-size: 25px;
     border: none;
     height: 9vh;
@@ -236,7 +239,8 @@ section>div {
     margin: 40px 0px;
 }
 
-.dine-out > p, .local-markets > p {
+.dine-out>p,
+.local-markets>p {
     margin-bottom: 40px;
 }
 
@@ -258,7 +262,8 @@ section>div {
     text-align: center;
 }
 
-.transport-arrival, .island-transportation {
+.transport-arrival,
+.island-transportation {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -295,14 +300,16 @@ section>div {
     width: 850px;
 }
 
-.adventure-imgs, .entertainment-imgs {
+.adventure-imgs,
+.entertainment-imgs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.entertainment, .adventure {
+.entertainment,
+.adventure {
     text-align: center;
 }
 
@@ -312,9 +319,9 @@ section>div {
 
 /* --------------Footer CSS -------------- */
 
-footer{
+footer {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     background-color: var(--nav-clear);
     justify-content: space-evenly;
 }
@@ -323,7 +330,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
     background-color: var(--nav-clear);
 
 }
@@ -332,4 +339,3 @@ footer{
     border: none;
     cursor: pointer;
 }
-
